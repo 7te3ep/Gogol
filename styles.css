@@ -1,0 +1,131 @@
+*,
+html,
+body {
+  padding: 0rem;
+  margin: 0rem;
+  color: black;
+  text-decoration: none;
+  font-family: Tahoma, Verdana, sans-serif;
+}
+
+html {
+  font-size: 15px;
+}
+body {
+  display: flex;
+  background-color: white;
+  height: 100vh;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+/* The navbar on top */
+
+nav {
+  display: flex;
+  flex-basis: 8%;
+  width: 100%;
+  box-sizing: border-box;
+  padding: 0rem 2rem;
+  justify-content: right;
+  align-items: center;
+}
+
+.NavRightElement {
+  padding: 0rem 1rem;
+}
+.NavRightElement:hover {
+  text-decoration: underline;
+}
+
+button {
+  background-color: #1a73e8;
+  color: white;
+  font-size: 1rem;
+  box-sizing: border-box;
+  padding: 0.7rem 2.5rem;
+  border-radius: 0.2rem;
+  transition: all 0s ease;
+  border: none;
+}
+
+button:active {
+  background-color: gray;
+  color: black;
+}
+/* The section on the middle of the page */
+
+section {
+  display: flex;
+  flex-basis: 80%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.SearchBar {
+  width: 50%;
+  display: flex;
+  align-items: center;
+  height: 3rem;
+  background-color: white;
+  border-radius: 2rem;
+  margin-top: 1rem;
+  padding: 0rem 1rem;
+  border: rgba(134, 134, 134, 0.5) 0.132rem solid;
+}
+
+.SearchLogo {
+  position: absolute;
+}
+.textarea {
+  width: 100%;
+  height: 100%;
+  border-radius: 2rem;
+  box-sizing: border-box;
+  height: 1rem;
+  margin: 0rem 3rem;
+  border: none;
+  outline: 0px solid transparent;
+}
+
+.textarea:active {
+  border: none;
+}
+/* The footer at the bottom */
+
+footer {
+  background-color: #f2f2f2;
+  display: flex;
+  flex-basis: 12%;
+  width: 100%;
+  flex-direction: column;
+}
+
+.TopOfFooter {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  padding: 0rem 3rem;
+  border-bottom: #dadce0 0.2rem solid;
+}
+
+.BottomOfFooter {
+  height: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0rem 3rem;
+}
+
+.FooterBottomLinks,
+.FooterTopLinks {
+  padding: 0rem 0.5rem;
+  color: #70757a;
+}
+
+.FooterBottomLinks:hover,
+.FooterTopLinks:hover {
+  text-decoration: underline;
+}
